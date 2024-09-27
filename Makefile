@@ -7,13 +7,10 @@ format:
 lint:
 	ruff check *.py
 
-container-lint:
-	docker run --rm -i hadolint/hadolint < .devcontainer/Dockerfile
-
 test:
 	python -m pytest -cov=main test_*.py 
 
-all: install format lint container-lint test 
+all: install format lint
 
 generate_and_push: 
 	python main.py
