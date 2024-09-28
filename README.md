@@ -1,3 +1,4 @@
+[![CI](https://github.com/nogibjj/AfagR_DE_week4_assignment/actions/workflows/main.yml/badge.svg)](https://github.com/nogibjj/AfagR_DE_week4_assignment/actions/workflows/main.yml)
 # Overview
 
 This repository demonstrates the use of GitHub Actions to test Python code across multiple versions using a matrix strategy. The workflow is designed to ensure compatibility and functionality of the code with different Python environments.
